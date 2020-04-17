@@ -1,0 +1,109 @@
+#appDiv {
+	background: #357bee;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+/*App*/
+.buttonDiv{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	padding: 20px 0;
+}
+
+.buttonDiv button{
+	width: 80%;
+	max-width: 150px;
+}
+
+button{
+	background: #357bee;
+	color: white;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+/*Header*/
+.headerClass{
+	padding: 30px;
+	background: #357bee;
+	color: white;
+}
+
+/*Container*/
+
+#container{
+	padding: 50px;
+	box-shadow: 10px 7px 2px 1px #00000019; 
+}
+
+.boxClass{
+	height: 300px;
+	overflow:scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #357bee; 
+  border-radius: 10px;
+}	
+
+/*Strip*/
+.stripClass{
+	margin: 5px;
+	width: 97%;
+}
+
+.stripClass p{
+	margin-left: 10px
+}
+
+.stripClass > img,
+.stripClass > p {
+	display: inline-block; 
+}
+
+.stripClass img{
+	width: 50px;
+	height: 50px;
+	margin: 1px 2px;
+	border-radius: 50px;
+}
+
+/*Light Mode*/
+
+.light #container{
+	background: white;
+}
+
+.light .boxClass{
+	background: white;
+	border: 2px solid black;
+}
+
+.light .stripClass img{
+	border:1px solid black;
+	color: black;
+}
+
+/*Dark Mode*/
+
+.dark #container{
+	background: black;
+}
+
+.dark .boxClass{
+	background: black;
+	border: 2px solid white;
+	color: white;
+}
+
+.dark .stripClass img{
+	border:1px solid white;
+}
